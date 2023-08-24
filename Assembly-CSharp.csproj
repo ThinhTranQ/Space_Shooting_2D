@@ -47,6 +47,9 @@
      <Compile Include="Assets\MainGame\Script\Common\PlaneController.cs" />
      <Compile Include="Assets\MainGame\Script\Base\MoveController.cs" />
      <Compile Include="Assets\MainGame\Script\Controller\PlayerController.cs" />
+     <Compile Include="Assets\MainGame\Script\Base\GunController.cs" />
+     <Compile Include="Assets\MainGame\Script\FireProjectile\PlayerGun.cs" />
+     <Compile Include="Assets\MainGame\Script\Controller\PlayerInput.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Scenes" />
      <Folder Include="Assets\Resources" />
@@ -77,7 +80,7 @@
      <Folder Include="Assets\MainGame\Art\Model\kenney_space-shooter-redux\PNG\UI" />
      <Folder Include="Assets\MainGame" />
      <Folder Include="Assets\MainGame\Script\Common" />
-     <Folder Include="Assets\MainGame\Script\Player" />
+     <Folder Include="Assets\MainGame\Script\FireProjectile" />
      <Reference Include="UnityEngine">
      <HintPath>E:\UnityHub\Unity Hub\2021.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>

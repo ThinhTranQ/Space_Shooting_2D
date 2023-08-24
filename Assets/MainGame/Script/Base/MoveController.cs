@@ -4,9 +4,9 @@ public class MoveController : MonoBehaviour
 {
     [SerializeField] protected float moveSpeed;
 
-    protected virtual void Move(Vector3 direction)
+    protected virtual void Move(Vector3 inputDirection)
     {
-        transform.position += direction * (Time.deltaTime * moveSpeed);
+        transform.position += inputDirection * (Time.deltaTime * moveSpeed);
     }
     
     
