@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "path": "Wave1",
+      "delayWaveTime" : 1,
+      "timeBetweenEnemies": 1,
+      "numberOfEnemies": 3,
+      "enemyLevel" : 1,
+      "wavePath": [
+        {"x": 0, "y": 0},
+        {"x": 1, "y": 1},
+        {"x": 2, "y": 2}
+      ]
+    },
+    {
+      "path": "Wave1",
+      "delayWaveTime" : 1,
+      "timeBetweenEnemies": 1,
+      "numberOfEnemies": 3,
+      "enemyLevel" : 1,
+      "wavePath": [
+        {"x": 0, "y": 0},
+        {"x": 1, "y": 1},
+        {"x": 2, "y": 2}
+      ]
+    }
+  ]
+}
